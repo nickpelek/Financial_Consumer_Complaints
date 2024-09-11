@@ -4,14 +4,14 @@
 This data analysis project aims to provide insights into the consumer complaints on financial products and services for a bank of America from 2017 to 2023. By analyzing different aspects of the complaints data, we ‘re looking to **identify trends**, **make data-driven recommendations** and **gain a deeper understanding about the consumer complaints.**
 
 ### Tools used
-- MS Excel (*Data exploring - Cleaning*)
+- MS Excel (*Data exploring - Formatting*)
 - MySQL workbench (*Data Analysis*)
 - Tableau Public (*Creating Reports*)
 
-### Data sources
+### Data sources (*Dataset was provided by [Maven Analytics](https://mavenanalytics.io/data-playground?page=3&pageSize=5)*)
 - **Issues Data:** this dataset used for this analysis (*“issues.csv”*) contains information mainly about the issues that company’s products had.
 - **State Data:** this is the other dataset used for this analysis (*“state.csv”*) and contains information about the complaints, states and also the date the consumers submitted their complaints.
-
+  
 ### Data Preparation
 In the initial data preparation phase, the following task performed:
 - Data loading and inspection
