@@ -30,7 +30,8 @@ With the *E.D.A.* i explored the consumer complaints to answer some key question
 
 ### Data Analysis Process (*SQL Queries*)
 
- >In this section we'll break down the project questions
+ >In this section we'll break down the project questions with SQL queries to find some useful insights.
+
 
 - Do consumer complaints have any seasonal patterns?
 
