@@ -20,7 +20,7 @@ In the initial data preparation phase, the following task performed:
 ### Exploratory Data Analysis (E.D.A.)
 With the *E.D.A.* i explored the consumer complaints to answer some key questions, such as:
 - Do consumer complaints have any seasonal partterns?
-- Which States have the most complaints?
+- Which State has the most complaints?
 - Which products present the most complaints(+ What are their most common issues)?
 - How does the company typically resolve the complaints?
 
@@ -33,4 +33,4 @@ The analysis results are summarized as follows:
     2) Credit card or prepaid card(*16,197*)
     3) Credit reporting, credit repair services, or other personal consumer reports (*7,710*)
 - Products most common issue is managing an account(*with 15,109 complaints*)
-- Company typically close complaints with an explanation (*with 65,65% of total*)
+- The company typically close complaints with an explanation (*with 65,65% of total*)
