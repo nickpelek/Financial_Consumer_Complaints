@@ -25,7 +25,7 @@ In the initial data preparation phase, the following task performed:
 With the *E.D.A.* i explored the consumer complaints to answer some key questions, such as:
 - Do consumer complaints have any seasonal patterns?
 - Which State has the most complaints?
-- Which products present the most complaints(+ What are their most common issues)?
+- Which products present the most complaints(+ What are their most common issue)?
 - How does the company typically resolve the complaints?
 
 ### Data Analysis Process (*SQL Queries*)
@@ -40,7 +40,45 @@ With the *E.D.A.* i explored the consumer complaints to answer some key question
   GROUP BY MONTH(date_submitted)
   ORDER BY months;
   ```
+> Consumer complaints do have a seasonal pattern, as they start to **increase** from *March* to *July*, followed by subsequent **decrease** in *August*.
 
+- Which State has the most complaints?
+
+  ```
+  SELECT state, COUNT(*) AS total_complaints FROM states
+  GROUP BY state
+  ORDER BY total_complaints DESC
+  LIMIT 1;
+  ```
+> The State with the **most complaints** is *California (CA)* with **13,709** total complaints.
+
+- 1) Which products present the most complaints?
+     
+  ```
+  SELECT product, COUNT(complaint_id) AS complaints FROM issues
+  GROUP BY product
+  ORDER BY complaints DESC;
+  ```
+> The products with the **most complaints** are: 1) *Checking or Savings account*
+                                                 2) *Credit card or prepaid card*
+                                                 3) *Credit reporting, credit repair services, or other personal consumer reports*
+- 2) What are their most common issue?
+  ```
+  SELECT issue , COUNT(issue) AS total_issues FROM issues
+  GROUP BY issue
+  ORDER BY total_issues DESC;
+  ```
+> The most common issue of those products is about **Managing an account**, with *15,109* people dealing with this problem.
+
+- How does the company typically resolve the complaints?
+  ```
+  WITH total_complaints AS(
+	  SELECT company_response_to_consumer, COUNT(complaint_id) AS complaints FROM issues
+	  GROUP BY  company_response_to_consumer)
+  SELECT company_response_to_consumer, CONCAT(ROUND(complaints/(SELECT count(complaint_id) FROM issues)*100,2), "%") AS percentage_complaints
+  FROM total_complaints;
+  ```
+> A significant majority, 65.65%, of complaints are resolved through explanation.
 ### Results
 The analysis results are summarized as follows:
 - Consumer complaints show a clear seasonal trend, with a steady increase from March to July and then drecreasing steadily.
