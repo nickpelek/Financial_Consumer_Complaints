@@ -17,7 +17,7 @@ With the *E.D.A.* consumer complaints are explored to answer some key questions,
 
 ## Data Structure
 Consumer Complaints database structure consists of two tables: *issues* & *states*, with a total row count of **62516** records.
-
+![er diagram copy](https://github.com/user-attachments/assets/f4e2a1f5-41b7-46a8-a562-acaa795004c9)
 
 ## Data Analysis Process (*SQL Queries*)
 
