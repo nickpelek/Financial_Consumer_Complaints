@@ -17,7 +17,9 @@ With the *E.D.A.* consumer complaints are explored to answer some key questions,
 
 ## Data Structure
 Consumer Complaints database structure consists of two tables: *issues* & *states*, with a total row count of **62516** records.
-![er diagram copy](https://github.com/user-attachments/assets/f4e2a1f5-41b7-46a8-a562-acaa795004c9)
+![transparent er](https://github.com/user-attachments/assets/f884ca79-368d-4c44-a45e-d0b44b71c86c)
+
+
 
 ## Data Analysis Process (*SQL Queries*)
 
@@ -30,8 +32,10 @@ Consumer Complaints database structure consists of two tables: *issues* & *state
   SELECT MONTH(date_submitted) AS months, COUNT(*) AS complaints FROM states
   GROUP BY MONTH(date_submitted)
   ORDER BY months;
-  ```
-> Consumer complaints do have a seasonal pattern, as they start to **increase** from *March* to *July*, <br> followed by subsequent **decrease** in *August*.
+  ``` 
+![query 1](https://github.com/user-attachments/assets/a4cf482b-9308-4076-af58-7cc25dba18c4)
+#####  *1 = January, 2 = February, 3 = March, 4 = April , 5 = May, 6 = June, 7 = July, 8 = August, 9 = September , 10 = October, 11 = November, 12 = December*  
+> Consumer complaints do have a seasonal pattern, as they start to **increase** from *March* to *July*, followed by subsequent **decrease** in *August*.
 
 - Which State has the most complaints?
 
@@ -41,26 +45,31 @@ Consumer Complaints database structure consists of two tables: *issues* & *state
   ORDER BY total_complaints DESC
   LIMIT 1;
   ```
+  ![query 2](https://github.com/user-attachments/assets/fdafc747-fcb2-4bed-91cd-0bebb086262d)
+
 > The State with the **most complaints** is *California (CA)* with **13,709** complaints.
 
 - 1) Which products present the most complaints?
-     
+
   ```
   SELECT product, COUNT(complaint_id) AS complaints FROM issues
   GROUP BY product
   ORDER BY complaints DESC;
   ```
+  ![query 3](https://github.com/user-attachments/assets/925a5b6e-fad3-4481-89b5-0252049e01fc)
 >The products with the **most complaints** are: <br> 1) *Checking or Savings account* <br>
                                                  2) *Credit card or prepaid card* <br>
                                                  3) *Credit reporting, credit repair services, or other personal consumer reports*
  						
 
 - 2) What are their most common issue?
+     
   ```
   SELECT issue , COUNT(issue) AS total_issues FROM issues
   GROUP BY issue
   ORDER BY total_issues DESC;
   ```
+  ![query 4](https://github.com/user-attachments/assets/8098de56-0127-4ba6-ac4d-8cce96215f28)
 > The most common issue of those products is about **Managing an account**, with *15,109* people dealing with this problem.
 
 - How does the company typically resolve the complaints?
@@ -71,7 +80,8 @@ Consumer Complaints database structure consists of two tables: *issues* & *state
   SELECT company_response_to_consumer, CONCAT(ROUND(complaints/(SELECT count(complaint_id) FROM issues)*100,2), "%") AS percentage_complaints
   FROM total_complaints;
   ```
-> A significant majority, 65.65%, of complaints are resolved through explanation.
+  ![query 5](https://github.com/user-attachments/assets/c51b0c85-aa1a-45c9-bbdf-3fc0ad8d68d6)
+> A significant majority (*65.65%*) of complaints are resolved through explanation.
 ### Results
 The analysis results are summarized as follows:
 - Consumer complaints show a clear seasonal trend, with a steady increase from March to July and then drecreasing steadily.
