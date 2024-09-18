@@ -49,7 +49,7 @@ With the *E.D.A.* i explored the consumer complaints to answer some key question
   ORDER BY total_complaints DESC
   LIMIT 1;
   ```
-> The State with the **most complaints** is *California (CA)* with **13,709** total complaints.
+> The State with the **most complaints** is *California (CA)* with **13,709** complaints.
 
 - 1) Which products present the most complaints?
      
