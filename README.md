@@ -81,13 +81,11 @@ Consumer Complaints database structure consists of two tables: *issues* & *state
   ```
   ![query 5](https://github.com/user-attachments/assets/c51b0c85-aa1a-45c9-bbdf-3fc0ad8d68d6)
 > A significant majority (*65.65%*) of complaints are resolved through explanation.
-### Results
-The analysis results are summarized as follows:
-- Consumer complaints show a clear seasonal trend, with a steady increase from March to July and then drecreasing steadily.
-- The State with the most complaints(*13,709*) is California (*CA*)
-- The products with the most complaints are:
-    1) Checking or savings account (*24,814*)
-    2) Credit card or prepaid card(*16,197*)
-    3) Credit reporting, credit repair services, or other personal consumer reports (*7,710*)
-- Products most common issue is managing an account(*with 15,109 complaints*)
-- The company typically close complaints with an explanation (*with 65,65% of total*)
+## Project Summary
+
+Consumer complaints to the bank exhibit a seasonal pattern. Complaints remain **relatively low** on winter months, and start to increase from March till July, where they hit their peak (*with **6,455** complaints occured on **July***). **California (CA)** recorded the *highest* number of complaints (**13,709**), primarily related to *checking or savings accounts (24,814)*. While most complaints (**65.65%**) were resolved *through explanations* from the bank to the consumer. Products most common issue
+ is about **Managing an account**, with *15,109* complaints (**You can see that by *hovering* over the number of the '*Products with the most complaints*'  at the interactive** [Dashboard](https://public.tableau.com/app/profile/nickpelek/viz/Financialconsumercomplaintsproject/Dashboard1)).
+
+
+![Financial Consumer complaints Dashboard](https://github.com/user-attachments/assets/97f1a831-3c38-479f-a9ef-a4417b9f1ea9)
+
