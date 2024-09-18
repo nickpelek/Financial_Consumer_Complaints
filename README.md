@@ -1,6 +1,6 @@
 # Financial Consumer Complaints
 
-### Project overview
+## Project overview
 This data analysis project aims to provide insights into the consumer complaints on financial products and services for a bank of America from 2017 to 2023. By analyzing different aspects of the complaints data, we ‘re looking to **identify trends**, **make data-driven recommendations** and **gain a deeper understanding about the consumer complaints.**
 
 
@@ -8,7 +8,6 @@ This data analysis project aims to provide insights into the consumer complaints
 - MS Excel (*Data exploring - Formatting*)
 - MySQL workbench (*Data Analysis*)
 - Tableau Public (*Creating Reports*)
-
 
 ### Data sources (*Dataset was provided by [Maven Analytics](https://mavenanalytics.io/data-playground?page=3&pageSize=5)*)
 - **Issues Data:** this dataset used for this analysis (*“issues.csv”*) contains information mainly about the issues that company’s products had.
@@ -40,7 +39,7 @@ With the *E.D.A.* i explored the consumer complaints to answer some key question
   GROUP BY MONTH(date_submitted)
   ORDER BY months;
   ```
-> Consumer complaints do have a seasonal pattern, as they start to **increase** from *March* to *July*, followed by subsequent **decrease** in *August*.
+> Consumer complaints do have a seasonal pattern, as they start to **increase** from *March* to *July*, <br> followed by subsequent **decrease** in *August*.
 
 - Which State has the most complaints?
 
@@ -59,9 +58,11 @@ With the *E.D.A.* i explored the consumer complaints to answer some key question
   GROUP BY product
   ORDER BY complaints DESC;
   ```
-> The products with the **most complaints** are: 1) *Checking or Savings account*
-                                                 2) *Credit card or prepaid card*
+>The products with the **most complaints** are: <br> 1) *Checking or Savings account* <br>
+                                                 2) *Credit card or prepaid card* <br>
                                                  3) *Credit reporting, credit repair services, or other personal consumer reports*
+ 						
+
 - 2) What are their most common issue?
   ```
   SELECT issue , COUNT(issue) AS total_issues FROM issues
