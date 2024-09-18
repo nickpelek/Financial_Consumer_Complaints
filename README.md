@@ -1,10 +1,8 @@
-# Financial Consumer Complaints
 
-## Project overview
+# Project overview
 This data analysis project aims to provide insights into the consumer complaints on financial products and services for a bank of America from 2017 to 2023. By analyzing different aspects of the complaints data, we ‘re looking to **identify trends**, **make data-driven recommendations** and **gain a deeper understanding about the consumer complaints.**
 
-## Exploratory Data Analysis (E.D.A.)
-With the *E.D.A.* consumer complaints are explored to answer some key questions, such as:
+Insights and recommendations will be provided by answering some key questions, such as:
 - Do consumer complaints have any seasonal patterns?
 - Which State has the most complaints?
 - Which products present the most complaints(+ What are their most common issue)?
@@ -15,6 +13,7 @@ With the *E.D.A.* consumer complaints are explored to answer some key questions,
 - MySQL workbench (*Data Analysis*)
 - Tableau Public (*Creating Reports*)
 
+**You can see the interactive Tableau Public dashboard [here](https://public.tableau.com/app/profile/nickpelek/viz/Financialconsumercomplaintsproject/Dashboard1)**
 ## Data Structure
 Consumer Complaints database structure consists of two tables: *issues* & *states*, with a total row count of **62516** records.
 ![transparent er](https://github.com/user-attachments/assets/f884ca79-368d-4c44-a45e-d0b44b71c86c)
