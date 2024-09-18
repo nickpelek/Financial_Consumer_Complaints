@@ -83,8 +83,7 @@ Consumer Complaints database structure consists of two tables: *issues* & *state
 > A significant majority (*65.65%*) of complaints are resolved through explanation.
 ## Project Summary
 
-Consumer complaints to the bank exhibit a seasonal pattern. Complaints remain **relatively low** on winter months, and start to increase from March till July, where they hit their peak (*with **6,455** complaints occured on **July***). **California (CA)** recorded the *highest* number of complaints (**13,709**), primarily related to *checking or savings accounts (24,814)*. While most complaints (**65.65%**) were resolved *through explanations* from the bank to the consumer. Products most common issue
- is about **Managing an account**, with *15,109* complaints (**You can see that by *hovering* over the number of the '*Products with the most complaints*'  at the interactive** [Dashboard](https://public.tableau.com/app/profile/nickpelek/viz/Financialconsumercomplaintsproject/Dashboard1)).
+Consumer complaints to the bank exhibit a seasonal pattern. Complaints remain **relatively low** on winter months, and start to increase from March till July, where they hit their peak (*with **6,455** complaints occured on **July***). **California (CA)** recorded the **highest** number of complaints (*13,709*), primarily related to **checking or savings accounts** (*24,814*). While most complaints (*65.65%*) were resolved **through explanations** from the bank to the consumer. Products most common issue is about **Managing an account**, with *15,109* complaints (**You can see that by *hovering* over the numbers of the '*Products with the most complaints*'  at the interactive** [Dashboard](https://public.tableau.com/app/profile/nickpelek/viz/Financialconsumercomplaintsproject/Dashboard1)).
 
 
 ![Financial Consumer complaints Dashboard](https://github.com/user-attachments/assets/97f1a831-3c38-479f-a9ef-a4417b9f1ea9)
