@@ -4,7 +4,7 @@ This data analysis project aims to provide insights into the consumer complaints
 
 Insights and recommendations will be provided by answering some key questions, such as:
 - Do consumer complaints have any seasonal patterns?
-- Which State has the most complaints?
+- Which States has the most complaints?
 - Which products present the most complaints(+ What are their most common issue)?
 - How does the company typically resolve the complaints?
 
