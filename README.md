@@ -41,8 +41,7 @@ Consumer Complaints database structure consists of two tables: *issues* & *state
   ```
   SELECT state, COUNT(*) AS total_complaints FROM states
   GROUP BY state
-  ORDER BY total_complaints DESC
-  LIMIT 1;
+  ORDER BY total_complaints DESC;
   ```
   ![query 2](https://github.com/user-attachments/assets/fdafc747-fcb2-4bed-91cd-0bebb086262d)
 
