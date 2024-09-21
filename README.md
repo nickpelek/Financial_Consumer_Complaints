@@ -36,7 +36,7 @@ Consumer Complaints database structure consists of two tables: *issues* & *state
 #####  *1 = January, 2 = February, 3 = March, 4 = April , 5 = May, 6 = June, 7 = July, 8 = August, 9 = September , 10 = October, 11 = November, 12 = December*  
 > Consumer complaints do have a seasonal pattern, as they start to **increase** from *March* to *July*, followed by subsequent **decrease** in *August*.
 
-#### - Which State has the most complaints?
+#### - Which States have the most complaints?
 
   ```
   SELECT state, COUNT(*) AS total_complaints FROM states
@@ -46,8 +46,11 @@ Consumer Complaints database structure consists of two tables: *issues* & *state
   ```
   ![query 2](https://github.com/user-attachments/assets/fdafc747-fcb2-4bed-91cd-0bebb086262d)
 
-> The State with the **most complaints** is *California (CA)* with **13,709** complaints.
-
+> The States with the **most complaints** are:
+> - **California (*CA*)**
+> - **Florida (*FL*)**
+> - **Texas (*TX*)**
+> - **New York (*NY*)**
 #### - Which products present the most complaints?
 
   ```
@@ -85,8 +88,10 @@ Consumer Complaints database structure consists of two tables: *issues* & *state
 > A significant majority (*65.65%*) of complaints are resolved through explanation.
 ## Project Summary
 
- Consumer complaints to the bank exhibit a seasonal pattern. Complaints remain **relatively low** on winter months, and start to **increase** from March till July, where they hit their peak (*with **6,455** complaints occurred in **July***).<br> **California (CA)** recorded the **highest** number of complaints (*13,709*), primarily related to **checking or savings accounts** (*24,814*).<br> Most complaints were resolved **through explanations** (*65.65% of total percentage*) from the bank to the consumer. The most common issues related to products are: 1) **Managing an account (*15,109 complaints*)**, 2) **Incorrect information on your report (*4,931 complaints*)**, 3) **Problem with a purchase shown on your statement (*4,415 complaints*)**  . (**You can see that by *hovering* over the numbers of the '*Products with the most complaints*'  at the interactive** [Dashboard](https://public.tableau.com/app/profile/nickpelek/viz/Financialconsumercomplaintsproject/Dashboard1).)
-
+ -Consumer complaints to the bank exhibit a seasonal pattern. Complaints remain **relatively low** on winter months, and start to **increase** from March till July, where they hit their peak (*with **6,455** complaints occurred in **July***).<br> - **California** recorded the **highest** number of complaints (*13,709*), followed by **Florida** and **Texas** (with **6,488** and **4,686** complaints respectively). <br> - The products with the most complaints are: 1) **Checking or savings accounts** (*24,814*), 2) **Credit card or prepaid card** (*16,194*), 3) **Credit reporting, credit repair services, or other personal consumer reports** (*7,710*).<br> -The most common issues related to products are: 1) **Managing an account (*15,109 complaints*)**, 2) **Incorrect information on your report (*4,931 complaints*)**, 3) **Problem with a purchase shown on your statement (*4,415 complaints*)**  . (**You can see that by *hovering* over the numbers of the '*Products with the most complaints*'  at the interactive** [Dashboard](https://public.tableau.com/app/profile/nickpelek/viz/Financialconsumercomplaintsproject/Dashboard1).)<br>
+ -Most complaints were resolved **through explanations** (*65.65% of total percentage*) from the bank to the consumer. 
 
 ![Financial Consumer complaints Dashboard](https://github.com/user-attachments/assets/1f20b6bd-ae2c-42a6-af8f-360367c12269)
+
+## Suggestions
 
