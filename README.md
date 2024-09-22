@@ -93,7 +93,9 @@ Consumer Complaints database structure consists of two tables: *issues* & *state
 ![Financial Consumer complaints Dashboard](https://github.com/user-attachments/assets/1f20b6bd-ae2c-42a6-af8f-360367c12269)
 
 ## Recommendations
-- 
--
--
+- Anticipate and prepare for **increased** complaint volumes during peak seasons (*March-July*) **by allocating additional resources to customer service departments**.
+- Provide **targeted training** to employees in areas with high complaint rates to equip them with the skills and knowledge needed to address these issues effectively.
+- Add **technology solutions**, such as **AI-powered chatbots** or **automated complaint resolution systems**, to improve efficiency and reduce human error.
+- Develop **educational materials** or **workshops** to help customers better understand their accounts, rights, and responsibilities. This can reduce misunderstandings and potential complaints.
+- Actively seek **customer feedback** through surveys or focus groups to gain insights into their experiences and identify pain points.
 
