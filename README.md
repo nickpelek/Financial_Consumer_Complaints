@@ -19,7 +19,7 @@ Insights and recommendations will be provided by answering some key questions, s
 - **MySQL workbench** (*Data Analysis*)
 - **Tableau Public** (*Creating Reports*)
 
-**You can see the interactive Tableau Public dashboard [here](https://public.tableau.com/app/profile/nickpelek/viz/Financialconsumercomplaintsproject/Dashboard1)**
+> ***You can see the interactive Tableau Public Dashboard* [here](https://public.tableau.com/app/profile/nickpelek/viz/Financialconsumercomplaintsproject/Dashboard1)**
 ## Data Structure
 Consumer Complaints database structure consists of two tables: *issues* & *states*, with a total row count of **62516** records.
 ![transparent er](https://github.com/user-attachments/assets/f884ca79-368d-4c44-a45e-d0b44b71c86c)
