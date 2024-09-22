@@ -11,7 +11,7 @@ Insights and recommendations will be provided by answering some key questions, s
 ## Table of contents
 - [Tools Used](#Tools-Used)
 - [Data Structure](#Data-Structure)
-- [Data Analysis Process (*SQL Queries*)](#Data-Analysis-Process-SQLQueries)
+- [Data Analysis Process (*SQL Queries*)](#Data-Analysis-Process-SQL-Queries)
 ## Tools Used
 - MS Excel (*Data exploring - Formatting*)
 - MySQL workbench (*Data Analysis*)
