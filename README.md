@@ -15,9 +15,9 @@ Insights and recommendations will be provided by answering some key questions, s
 - [Project Summary](#Project-Summary)
 - [Recommendations](#Recommendations)
 ## Tools Used
-- MS Excel (*Data exploring - Formatting*)
-- MySQL workbench (*Data Analysis*)
-- Tableau Public (*Creating Reports*)
+- **MS Excel** (*Data exploring - Formatting*)
+- **MySQL workbench** (*Data Analysis*)
+- **Tableau Public** (*Creating Reports*)
 
 **You can see the interactive Tableau Public dashboard [here](https://public.tableau.com/app/profile/nickpelek/viz/Financialconsumercomplaintsproject/Dashboard1)**
 ## Data Structure
