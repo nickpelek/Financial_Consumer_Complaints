@@ -33,7 +33,7 @@ Consumer Complaints database structure consists of two tables: *issues* & *state
   ORDER BY months;
   ``` 
 ![query 1](https://github.com/user-attachments/assets/a4cf482b-9308-4076-af58-7cc25dba18c4)
-#####  *1 = January, 2 = February, 3 = March, 4 = April , 5 = May, 6 = June, 7 = July, 8 = August, 9 = September , 10 = October, 11 = November, 12 = December*  
+#####  *1 = January, 2 = February, 3 = March, 4 = April , 5 = May, 6 = June, 7 = July, 8 = August, 9 = September , 10 = October,<br> 11 = November, 12 = December*  
 > Consumer complaints do have a seasonal pattern, as they start to **increase** from *March* to *July*, followed by subsequent **decrease** in *August*.
 
 #### - Which States have the most complaints?
@@ -58,12 +58,12 @@ Consumer Complaints database structure consists of two tables: *issues* & *state
   ORDER BY complaints DESC;
   ```
   ![query 3](https://github.com/user-attachments/assets/925a5b6e-fad3-4481-89b5-0252049e01fc)
->The products with the **most complaints** are: <br> 1) *Checking or Savings account* <br>
-                                                 2) *Credit card or prepaid card* <br>
-                                                 3) *Credit reporting, credit repair services, or other personal consumer reports*
+>The products with the **most complaints** are: <br> 1) **Checking or Savings account** <br>
+                                                 2) **Credit card or prepaid card** <br>
+                                                 3) **Credit reporting, credit repair services, or other personal consumer reports**
  						
 
-#### - What are its most common issues?
+#### - What are its most common **issues**?
      
   ```
   SELECT issue , COUNT(issue) AS total_issues FROM issues
@@ -71,9 +71,9 @@ Consumer Complaints database structure consists of two tables: *issues* & *state
   ORDER BY total_issues DESC;
   ```
   ![query 4](https://github.com/user-attachments/assets/8098de56-0127-4ba6-ac4d-8cce96215f28)
-> The products most common issues are:<br> *1) Managing an account* <br>
-										 *2) Incorrect information on your report*<br>
-                                         *3) Problem with a purchase shown on your statement*
+> The products most common issues are:<br> **1) Managing an account** <br>
+										 **2) Incorrect information on your report**<br>
+                                         **3) Problem with a purchase shown on your statement**
 
 #### - How does the company typically resolve the complaints?
   ```
