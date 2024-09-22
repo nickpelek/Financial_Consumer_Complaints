@@ -12,6 +12,8 @@ Insights and recommendations will be provided by answering some key questions, s
 - [Tools Used](#Tools-Used)
 - [Data Structure](#Data-Structure)
 - [Data Analysis Process (*SQL Queries*)](#Data-Analysis-Process-SQL-Queries)
+- [Project Summary](#Project-Summary)
+- [Recommendations](#Recommendations)
 ## Tools Used
 - MS Excel (*Data exploring - Formatting*)
 - MySQL workbench (*Data Analysis*)
