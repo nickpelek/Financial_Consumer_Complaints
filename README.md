@@ -92,5 +92,8 @@ Consumer Complaints database structure consists of two tables: *issues* & *state
 
 ![Financial Consumer complaints Dashboard](https://github.com/user-attachments/assets/1f20b6bd-ae2c-42a6-af8f-360367c12269)
 
-## Suggestions
+## Recommendations
+- 
+-
+-
 
