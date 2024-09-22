@@ -7,7 +7,10 @@ Insights and recommendations will be provided by answering some key questions, s
 - Which States has the most complaints?
 - Which products present the most complaints(+ What are their most common issue)?
 - How does the company typically resolve the complaints?
-
+---
+## Table of contents
+- [Tools used](#Toolsused)
+- [Data Structure](#DataStructure)
 ## Tools used
 - MS Excel (*Data exploring - Formatting*)
 - MySQL workbench (*Data Analysis*)
