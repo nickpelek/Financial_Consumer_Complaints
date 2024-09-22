@@ -33,7 +33,7 @@ Consumer Complaints database structure consists of two tables: *issues* & *state
 
 #### - Do consumer complaints have any seasonal patterns?
 
-   ```
+   ```sql
   SELECT MONTH(date_submitted) AS months, COUNT(*) AS complaints FROM states
   GROUP BY MONTH(date_submitted)
   ORDER BY months;
@@ -44,7 +44,7 @@ Consumer Complaints database structure consists of two tables: *issues* & *state
 
 #### - Which States have the most complaints?
 
-  ```
+  ```sql
   SELECT state, COUNT(*) AS total_complaints FROM states
   GROUP BY state
   ORDER BY total_complaints DESC;
@@ -58,7 +58,7 @@ Consumer Complaints database structure consists of two tables: *issues* & *state
 > - **New York (*NY*)**
 #### - Which products present the most complaints?
 
-  ```
+  ```sql
   SELECT product, COUNT(complaint_id) AS complaints FROM issues
   GROUP BY product
   ORDER BY complaints DESC;
@@ -71,7 +71,7 @@ Consumer Complaints database structure consists of two tables: *issues* & *state
 
 #### - What are its most common **issues**?
      
-  ```
+  ```sql
   SELECT issue , COUNT(issue) AS total_issues FROM issues
   GROUP BY issue
   ORDER BY total_issues DESC;
@@ -82,7 +82,7 @@ Consumer Complaints database structure consists of two tables: *issues* & *state
                                          **3) Problem with a purchase shown on your statement**
 
 #### - How does the company typically resolve the complaints?
-  ```
+  ```sql
   WITH total_complaints AS(
 	  SELECT company_response_to_consumer, COUNT(complaint_id) AS complaints FROM issues
 	  GROUP BY  company_response_to_consumer)
