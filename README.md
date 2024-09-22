@@ -9,9 +9,9 @@ Insights and recommendations will be provided by answering some key questions, s
 - How does the company typically resolve the complaints?
 ---
 ## Table of contents
-- [Tools used](#Tools-used)
+- [Tools Used](#Tools-Used)
 - [Data Structure](#Data-Structure)
-## Tools used
+## Tools Used
 - MS Excel (*Data exploring - Formatting*)
 - MySQL workbench (*Data Analysis*)
 - Tableau Public (*Creating Reports*)
