@@ -1,6 +1,6 @@
 
 # Project overview
-This data analysis project aims to provide insights into the consumer complaints on financial products and services for a bank of America from 2017 to 2023. By analyzing different aspects of the complaints data, we ‘re looking to **identify trends**, **make data-driven recommendations** and **gain a deeper understanding about the consumer complaints.**
+This data analysis project aims to provide insights into the consumer complaints on financial products and services for a bank of America from 2017 to 2023. By analyzing different aspects of the complaints data, we are looking to **identify trends**, **make data-driven recommendations** and **gain a deeper understanding about the consumer complaints.**
 
 Insights and recommendations will be provided by answering some key questions, such as:
 - Do consumer complaints have any seasonal patterns?
